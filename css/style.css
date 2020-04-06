@@ -1,0 +1,27 @@
+.team .container .head {
+    text-align: center;
+}
+.team .container .head h1{
+    text-transform: uppercase;
+    color: rgb(15, 15, 97);
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+.team .container .head button {
+    text-transform: capitalize;
+    background-color: rgb(97, 149, 247);
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.team .container .pic img {
+    border-radius: 50%;
+    padding: 10px ;
+
+}
+.team .container .pic .info h6 {
+    color:rgb(12, 12, 129);
+}
+.team .container .pic .info p {
+    color:rgb(5, 5, 63);
+}
