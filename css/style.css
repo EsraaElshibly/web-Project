@@ -25,3 +25,64 @@
 .team .container .pic .info p {
     color:rgb(5, 5, 63);
 }
+
+
+/* node js part */
+
+.container{margin: auto;width: 1170px;}
+
+
+.header .row_head h1{text-align: center;
+                     font-size:55px;
+                     font-weight: bold;
+                      margin-top: 30px;}
+
+.header p{text-align: center;
+                    font-size:22px;
+                    margin-top: 30px;
+                    background-color: rgb(250, 247, 84);}
+ 
+
+.header .videos {display:flex ;padding: 12px;margin-top: 70px;width: 1170px;} 
+
+.header .videos iframe{border-radius:20px ;}
+
+ 
+            
+.header .videos .row video p{margin-left: 8px;font-size: 22px;font-weight: 500;}
+
+.header .videos button{margin-left: 80px;
+                    
+                       padding: 5px;
+                       width: 90px;
+                       font-weight: bold;
+                       font-size:17px;
+                       font-family: Arial, Helvetica, sans-serif;
+                       background-color:rgb(243, 103, 103);
+                        border: 2px solid rgb(236, 73, 73);
+                         border-radius: 15px;  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
