@@ -27,33 +27,48 @@
 }
 
 
-/* node js part */
+/* Start Node js part*/
+* {
+    
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+body{background-color:rgba(250, 154, 154, 0.637);}
 
 .container{margin: auto;width: 1170px;}
 
+.top{ 
+    font-size:70px;
+    font-weight: bolder;
+     text-align: center;
+    margin-bottom: 90px;
+    color: blue;}
 
-.header .row_head h1{text-align: center;
-                     font-size:55px;
-                     font-weight: bold;
-                      margin-top: 30px;}
+.header{text-align: center; padding: 10px;}
 
-.header p{text-align: center;
-                    font-size:22px;
-                    margin-top: 30px;
-                    background-color: rgb(250, 247, 84);}
+.header h1{
+           font-size:55px;
+           font-weight: bold;
+            margin-top: 25px;}
+
+.header .node{
+            font-size:22px;
+            margin-top: 25px;
+            background-color: rgb(250, 247, 84);}
  
 
-.header .videos {display:flex ;padding: 12px;margin-top: 70px;width: 1170px;} 
+.header .link{margin-top: 70px} 
 
-.header .videos iframe{border-radius:20px ;}
+iframe{width: 100%; height: 100%;} 
 
- 
-            
-.header .videos .row video p{margin-left: 8px;font-size: 22px;font-weight: 500;}
 
-.header .videos button{margin-left: 80px;
+.header .link p{font-size: 22px;font-weight: 500;}
+
+.header .link button{
                     
-                       padding: 5px;
+                      padding: 5px;
                        width: 90px;
                        font-weight: bold;
                        font-size:17px;
@@ -61,6 +76,120 @@
                        background-color:rgb(243, 103, 103);
                         border: 2px solid rgb(236, 73, 73);
                          border-radius: 15px;  }
+
+/* End Node js part*/
+
+
+
+/* Start php, mySqual part*/
+
+.part_of_php{
+    text-align: center;
+    padding:10px;
+    margin-top: 100px;
+}
+.part_of_php h1{
+
+    font-size:55px;
+    font-weight: bold;
+     margin-top: 25px;
+    
+}
+
+
+video{
+    width: 100%;
+    height: 100%;
+}
+    
+
+.part_of_php p{
+    font-size:22px;
+    margin-top: 25px;
+    background-color: rgb(250, 247, 84);
+}
+
+.part_of_php .parant{
+    margin-top: 70px;
+
+
+}
+
+
+ .card-body  .btn{
+   padding: 3px;
+    width: 90px;
+    font-weight: bold;
+    font-size:17px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(243, 103, 103);
+     border: 2px solid rgb(236, 73, 73);
+      border-radius: 15px;
+     margin-top: 15px;  }
+
+.part_of_mysqal{  margin-top: 100px;}
+
+ .part_of_mysqal h1{
+     text-align:center;
+        font-size:55px;
+        font-weight: bold;
+         margin-top: 25px;
+ }
+ .part_of_mysqal p{
+     text-align: center;
+    font-size:22px;
+    margin-top: 25px;
+    background-color: rgb(250, 247, 84);
+ }
+
+ .part_of_mysqal .parant{
+    margin-top: 70px;}
+
+
+
+/* End php , mySqual part*/
+
+
+/* Start ui/ux part*/
+
+
+.auto{text-align: center;padding: 10px;  margin-top: 100px;}
+
+.auto h1{
+    font-size:55px;
+    font-weight: bold;
+     margin-top: 25px;}
+
+
+
+.auto .ui{
+     font-size:22px;
+     margin-top: 25px;
+     background-color: rgb(250, 247, 84);}
+
+
+.auto .design {margin-top: 70px} 
+
+iframe{width: 100%; height: 100%;} 
+
+
+.auto .design p{font-size: 22px;font-weight: 500;}
+
+.auto .design button{
+             
+                padding: 5px;
+                width: 90px;
+                font-weight: bold;
+                font-size:17px;
+                font-family: Arial, Helvetica, sans-serif;
+                background-color:rgb(243, 103, 103);
+                 border: 2px solid rgb(236, 73, 73);
+                  border-radius: 15px;  }
+
+
+
+/* End ui/ux part*/
+
 
 
 
