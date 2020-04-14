@@ -1,21 +1,42 @@
-.team .container .head {
+.team{
+    background-color: rgb(252, 249, 249);
+    margin-bottom: 100px ;
+}
+.team .container .head
+ {
     text-align: center;
 }
 .team .container .head h1{
     text-transform: uppercase;
-    color: rgb(15, 15, 97);
+    color: rgb(17, 17, 122);
     padding-top: 70px;
     padding-bottom: 20px;
 }
-.team .container .head button {
+.team .container .back{
+    margin-top: 20px;
+}
+.team .container .front h3,
+.team .container .back h3{
+    text-transform: uppercase;
+    color: rgb(46, 46, 141);
+    padding: 15px;
+}
+.team .container .head a button {
     text-transform: capitalize;
     background-color: rgb(97, 149, 247);
+    color: white ;
+    padding: 5px ;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     cursor: pointer;
 }
-.team .container .pic img {
-    border-radius: 50%;
+.team .container .all-info .info,
+.team .container .all-info .img
+{
+    padding-top: 18px;
+}
+.team .container .all-info .img img {
+    border-radius: 20%;
     padding: 10px ;
 
 }
