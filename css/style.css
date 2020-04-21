@@ -12,6 +12,12 @@
     padding-top: 70px;
     padding-bottom: 20px;
 }
+.team .container .line{
+    width: 700px;
+    box-shadow: 1px 1px #337ab7;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
 .team .container .back{
     margin-top: 20px;
 }
